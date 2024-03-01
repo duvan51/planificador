@@ -1,0 +1,66 @@
+.columnsItems{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.columnsItems>div>:nth-child(1){
+    border-bottom: 1px solid black;
+    display: flex;
+    width: 100%;
+    
+}
+.columnsItems>div>:nth-child(1)>:nth-child(1){
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columnsItems>div>:nth-child(1)>:nth-child(2){
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 255, 45);
+}
+.columnsItems>div>:nth-child(1)>:nth-child(2):hover{
+    background-color: rgb(127, 244, 117);
+}
+
+
+
+.columnsItems>div{
+    border: 1px solid;
+    width: 500px;
+    border-radius:2%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f4f7;
+
+}
+.columnsItems>div>.tasks{
+    width: 400px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    padding: 20px 0px;
+
+}
+.columnsItems>div>.tasks>div{
+    height: 50px;
+    background-color:white;
+    border-radius: 8%;
+}
+.columnsItems>div>.tasks>div:hover{
+    background-color: bisque;
+    
+}
+
+.columnsItems>div>:nth-child(1){
+    height: 40px;
+
+}
